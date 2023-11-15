@@ -26,7 +26,8 @@ void main()
     float shading= texture2D(u_tex0, uv).g; //取MonaLisa綠色版作為明亮值故使用.g
 
 
-    vec4 c;
+    vec4 c;      
+                //兩張貼圖的權重分配
                 float step = 1. / 6.;
                 if( shading <= step ){   
                     c = mix( texture2D( u_tex6, vUv ), texture2D( u_tex5, vUv ), 6. * shading );
