@@ -23,7 +23,7 @@ void main()
 {
     vec2 uv= gl_FragCoord.xy/u_resolution.xy;
     vec2 vUv=fract(6.0*uv);                        //key
-    float shading= texture2D(u_tex0, uv).g; //取MonaLisa綠色版作為明亮值
+    float shading= texture2D(u_tex0, uv).g; //取MonaLisa綠色版作為明亮值故使用.g
 
 
     vec4 c;
