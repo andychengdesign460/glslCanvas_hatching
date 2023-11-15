@@ -9,13 +9,13 @@ precision mediump float;
 uniform vec2 u_resolution;
 uniform vec2 u_mouse;
 uniform float u_time;
-uniform sampler2D u_tex0;
-uniform sampler2D u_tex1;
+uniform sampler2D u_tex0; //Monalisa
+uniform sampler2D u_tex1; //patch1
 uniform sampler2D u_tex2;
 uniform sampler2D u_tex3;
 uniform sampler2D u_tex4;
 uniform sampler2D u_tex5;
-uniform sampler2D u_tex6;
+uniform sampler2D u_tex6; 
 
 
 
