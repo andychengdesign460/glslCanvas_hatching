@@ -15,9 +15,22 @@
             left: 50%;
             transform: translate(-50%, -50%);
         }
+
+        .btn{
+            position: fixed;
+            top: 0;
+            right: 0;
+            font-size: 40px;
+            color: white;
+            background-color: black;
+            z-index: 100;
+            text-decoration: none;
+            padding: 10px;
+        }
     </style>
 </head>
 <body>
+    <a class="btn" href="/3_pixelBrick_icon.html">switch</a>
     <canvas id="glslCanvas" data-fragment-url="3_pixelBrick.frag" width="800" height="600" data-textures="data/van.jpeg, data/hatch_0.png, data/hatch_1.png, data/hatch_2.png, data/hatch_3.png, data/hatch_4.png, data/hatch_5.png"></canvas>
 </body>
 <script>
